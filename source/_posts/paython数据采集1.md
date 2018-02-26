@@ -2,7 +2,7 @@
 layout: post
 title: "python数据采集（一）"
 date: 20018-2-26 12:00
-conments: true
+comments: true
 tags:
     - python
     - 数据采集

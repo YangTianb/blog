@@ -3,8 +3,9 @@ layout: post
 title: "MarkdownPad2 使用"
 date: 2018-2-26 11:34
 comments: true
-tags: [MD,MarkdownPad2]
-brief： "MarkdownPad2 使用，hexo编辑博客"
+tags: 
+	- MD
+	- MarkdownPad2
 ---
 
 hexo 博客已经搭建好了，但怎么编写一篇博客呢？

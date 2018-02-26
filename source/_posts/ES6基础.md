@@ -3,8 +3,10 @@ layout: post
 title: "ES6 标准规范-常用基础"
 date: 2018-2-26 11:34
 comments: true
-tags: [ES6,react]
-brief： "ES6 标准规范-常用基础"
+tags: 
+	- ES6
+	- react
+brief: "ES6 标准规范-常用基础"
 ---
 
 ## ES6里都有什么？
@@ -28,6 +30,7 @@ let 只对 所在{}中起作用，在let所在{}外部不起作用
 ### const
 表示常量，定义后不允许修改。不能给常量赋值。
 
+<!--more-->
 
 ## 字符串，模板字符串处理
 ### 拼接
