@@ -73,14 +73,14 @@ mobile:
 #请参考wiki：
 
 #1、多说
-#duoshuo: "litten-hexo"
+duoshuo: false
 
 #2、网易云跟帖
-#wangyiyun: '2dba06fbf8d24c13915ea6c6aa7183b1'
+wangyiyun: false
 
 #3、畅言
-#changyan_appid: 'cysX3aGWt'
-#changyan_conf: 'prod_1dcda447175aada96edcdb7e412338fa'
+changyan_appid: false
+changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
