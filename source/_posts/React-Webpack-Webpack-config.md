@@ -1,9 +1,8 @@
 ---
-title: react+webpack(一)：Webpack基础配置
+title: React+Webpack(一):Webpack基础配置
 date: 2018-3-1 20：46
-
+tags: [react,webpack,react-webpack-loader]
 ---
-
 
 
 ## Webpack 介绍

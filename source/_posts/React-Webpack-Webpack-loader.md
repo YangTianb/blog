@@ -1,15 +1,12 @@
 ---
-title: React+Webpack (二)：Webpack loader 构建基础应用
+title: React+Webpack(二):Webpack loader 构建基础应用
 date: 2018-3-2 14:20
-tags:
-	- react
-	- webpack
-	- react-webpack-loader
+tags: [react,webpack,react-webpack-loader]
 ---
 
 ## 前文
  
-<a href="http://ikode.site/2018/03/01/react+webpack(%E4%B8%80)%EF%BC%9AWebpack%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/">react+webpack(一)：Webpack基础配置</a>
+<a href="http://ikode.site/2018/03/03/React-Webpack-Webpack-config/">react+webpack(一)：Webpack基础配置</a>
 ## 安装配置 babel-loader
 
 因为我们的react 语法是jsx 非原生js 语法，浏览器是不能识别解析的。 要让jsx 转为js需要安装babel。
