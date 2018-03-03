@@ -1,6 +1,10 @@
 ---
-title: Webpack loader 构建基础应用
+title: React+Webpack (二)：Webpack loader 构建基础应用
 date: 2018-3-2 14:20
+tags:
+	- react
+	- webpack
+	- react-webpack-loader
 ---
 
 ## 前文
@@ -12,7 +16,7 @@ date: 2018-3-2 14:20
 
 
 > npm i babel-core -D
-> npm i bable-loader -D
+> npm i babel-loader -D
 
 
 <!--more-->
@@ -33,7 +37,7 @@ module.exports = {
     module: {
         rules: [{
             test: /.jsx$/,
-            loader: 'babel-loader' //babel-loader 是一个插件，需安装 babel-core 和bable-loader 使用npm i babel-core -D,npm i bable-loader
+            loader: 'babel-loader' //babel-loader 是一个插件，需安装 babel-core 和babel-loader 使用npm i babel-core -D,npm i babel-loader
                                 // ，指定用babel去编译，babel能识别各种js语法.
             },
             {
@@ -52,14 +56,14 @@ module.exports = {
 
 安装 babelrc 要使用的插件
 
-> npm i bable-preset-es2015 bable-preset-es2015-loose bable-preset-react -D
+> npm i babel-preset-es2015 babel-preset-es2015-loose babel-preset-react -D
 
 在项目根目录创建文件 ".babelrc",配置如下：
 
 ```
 {
     //指定bable解析哪些语法,loose表示松散的态度的解析。需安装指定的包：
-    // npm i bable-preset-es2015 bable-preset-es2015-loose bable-preset-react -D
+    // npm i babel-preset-es2015 babel-preset-es2015-loose babel-preset-react -D
     "presets":[
             ["es2015",{"loose":true}],
             "react"
@@ -111,7 +115,7 @@ module.exports = {
  * 应用入口
  * */
 import  React from  'react'
-import  ReactDOM from  'react-dom'
+import  ReactDOM from  'react-dom' //需安装react-dom,npm i react-dom  
 import  App from  './App.jsx'
 
 /**
@@ -148,6 +152,22 @@ export  default  class  App extends  React.Component{
 
 
 
+
+使用webstorm浏览index.hom,显示：This is ReactApp
+
+
 ## 例子代码：
 
 > https://github.com/YangTianb/ynode
+
+
+##总结
+
+一共需使用的命令：
+
+> npm i babel-core -D
+> npm i bable-loader -D
+> npm i babel-preset-es2015 babel-preset-es2015-loose babel-preset-react -D
+> npm i react-dom 
+> npm i html-webpack-plugin
+> npm rum build
