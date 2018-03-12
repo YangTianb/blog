@@ -59,7 +59,15 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: '<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?141ba47458949b1f25fa486e7e495413";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>'
 google_analytics: ''
 favicon: /assets/img/favicon.ico
 
